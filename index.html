@@ -73,7 +73,58 @@ body{
   box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
   transform: scale(1.05);
   z-index: 2;
-}</style>
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+@media (max-width: 1024px) {
+  img {
+    width: 100%;
+  }
+
+  .gallery img,
+  .card img,
+  .product img {
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+
+  .gallery img,
+  .card img,
+  .product img {
+    height: 200px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+
+  .gallery img,
+  .card img,
+  .product img {
+    height: 160px;
+  }
+}
+
+
+</style>
 </head>
 
 <body>
